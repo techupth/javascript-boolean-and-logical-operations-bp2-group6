@@ -1,10 +1,8 @@
-let isOver18 = true;
-let hasCriminalBlacklist = true;
-
-
-
+// Exercise #1: Event Conditions
 // Start coding here
-let isAllow = (isOver18==true && (!hasCriminalBlacklist)==false ); //เข้างานได้
-console.log(isAllow);
- isAllow = (!isOver18 ==true && hasCriminalBlacklist == false );
- console.log(isAllow);//กรณีของเจมส์เข้างานไม่ได้
+let isOver18 = true;
+let hasCriminalBlacklist = false;
+
+let isAllow = isOver18 && !hasCriminalBlacklist
+console.log(isAllow)
+// James มีสิทธิ์เข้างาน
